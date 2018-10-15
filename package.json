@@ -1,0 +1,19 @@
+{
+  "name": "awsnode",
+  "version": "1.0.0",
+  "description": "Azure ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelbraga/AwsNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrelbraga/AwsNode/issues"
+  },
+  "homepage": "https://github.com/andrelbraga/AwsNode#readme"
+}
