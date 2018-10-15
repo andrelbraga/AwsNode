@@ -1,19 +1,19 @@
 {
-  "name": "awsnode",
-  "version": "1.0.0",
-  "description": "Azure ",
-  "main": "index.js",
+  "name": "app-msc",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andrelbraga/AwsNode.git"
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andrelbraga/AwsNode/issues"
-  },
-  "homepage": "https://github.com/andrelbraga/AwsNode#readme"
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
 }
